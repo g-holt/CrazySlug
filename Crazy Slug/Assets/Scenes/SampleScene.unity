@@ -2626,9 +2626,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 299797506310909151, guid: e195de34f2f29a545a3bc0df9670096d, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 299797506310909152, guid: e195de34f2f29a545a3bc0df9670096d, type: 3}
       propertyPath: m_RootOrder
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 299797506310909152, guid: e195de34f2f29a545a3bc0df9670096d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 299797506310909152, guid: e195de34f2f29a545a3bc0df9670096d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 299797506310909152, guid: e195de34f2f29a545a3bc0df9670096d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2670,6 +2682,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 299797506310909153, guid: e195de34f2f29a545a3bc0df9670096d, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6559859134886937250, guid: e195de34f2f29a545a3bc0df9670096d, type: 3}
+      propertyPath: moveSpeed
+      value: 2.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: e195de34f2f29a545a3bc0df9670096d, type: 3}
@@ -2681,9 +2701,17 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2113495384918394075, guid: b1678cbe010fb6c44be2bd1eca56c8ad, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2978575358356083123, guid: b1678cbe010fb6c44be2bd1eca56c8ad, type: 3}
       propertyPath: m_RootOrder
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2978575358356083123, guid: b1678cbe010fb6c44be2bd1eca56c8ad, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2978575358356083123, guid: b1678cbe010fb6c44be2bd1eca56c8ad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2728,6 +2756,10 @@ PrefabInstance:
     - target: {fileID: 6224554605234029544, guid: b1678cbe010fb6c44be2bd1eca56c8ad, type: 3}
       propertyPath: m_Name
       value: Mushroom Spring
+      objectReference: {fileID: 0}
+    - target: {fileID: 6224554605234029544, guid: b1678cbe010fb6c44be2bd1eca56c8ad, type: 3}
+      propertyPath: m_TagString
+      value: MushroomSpring
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
